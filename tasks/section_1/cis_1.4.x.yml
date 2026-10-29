@@ -41,8 +41,7 @@
     - rule_1.4.2
     - NIST800-53R5_AC-3
   block:
-    - name: "1.4.2 | PATCH | Ensure access to bootloader config is configured | bios based system"
-      when: rhel9cis_legacy_boot
+    - name: "1.4.2 | PATCH | Ensure access to bootloader config is configured | GRUB2 configuration files"
       ansible.builtin.file:
         path: "/boot/grub2/{{ item.path }}"
         owner: root

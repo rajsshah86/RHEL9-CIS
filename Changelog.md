@@ -3,6 +3,7 @@
 ## Based on CIS Benchmark v2.0.0
 ## Oct2026 - public issue fixes
 
+- #479 1.4.2 applies /boot/grub2 file permissions on both BIOS and UEFI systems; EFI mount handling is unchanged
 - company name MindPoint Group - A Quantum Sky Company
 - #468 1.5.3 skipped when /etc/systemd/coredump.conf is absent, matching 1.5.4 thanks to @matagyula
 - #468 journald.conf.d created when any of 6.2.1.3, 6.2.2.2, 6.2.2.3 or 6.2.2.4 is enabled thanks to @matagyula
